@@ -1,5 +1,6 @@
 /* styles/globals.css */
 body {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +40,11 @@ body {
 
 .result {
     margin-top: 20px;
+    /* Additional styles for search results */
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; /* Adjust size as needed */
+    color: #333; /* Set text color */
 }
+
+

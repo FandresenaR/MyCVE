@@ -6,8 +6,9 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>CVE Search App</title>
-                <meta name="description" content="Search for CVE vulnerabilities" />
+              <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet" />
+              <title>CVE Search App</title>
+              <meta name="description" content="Search for CVE vulnerabilities" />
             </Head>
             <main>
                 <CveSearch />
